@@ -1,0 +1,59 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="game.css">
+</head>
+<body>
+<div class="container-fluid" id ="container1">
+	<h3 class="text-center">THE GREAT</h3>
+	<h1 class="text-center">RGB(<span id="red">211</span>,<span id="green">211</span>,<span id ="blue">211</span>)</h1>
+	<h3 class="text-center">GUESSING GAME</h3>
+</div>
+
+<div id="middle" style="background-color:white">
+	<h5 style="color:rgba(116,141,191,0.7)">
+	<Strong>
+	<span id="loose">NEW COLORS</span>
+	<span id = "won"></span>
+	<span id="level">EASY </span>&nbsp
+	<span class="active" id="level2"> HARD</span></strong>
+	</h5>
+</div>
+
+<div class="container-fluid text-center " id="space" style="background-color:rgb(78,78,78)">
+
+	<div class="row">
+		<div class="col-md-4"></div>
+		<div class="col-md-4">
+			<div class = "row">
+				<div class="col-md-4">
+					<span class="rcorners1 thumbnail" id="box1"></span>
+				</div>
+				<div class="col-md-4">
+					<span class="rcorners1 thumbnail" id="box2"></span>
+				</div>
+				<div class="col-md-4">
+					<span class="rcorners1 thumbnail" id="box3"></span>
+				</div>
+			</div>
+			<div class = "row">
+				<div class="col-md-4">
+					<span class="rcorners1 thumbnail" id="box4"></span>
+				</div>
+				<div class="col-md-4">
+					<span class="rcorners1 thumbnail" id="box5"></span>
+				</div>
+				<div class="col-md-4">
+					<span class="rcorners1 thumbnail" id="box6"></span>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4"></div>
+	</div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="game.js"></script>
+</body>
+</html>
